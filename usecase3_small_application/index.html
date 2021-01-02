@@ -1,0 +1,25 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="todoapp">
+      <form id="js-form">
+        <input
+          id="js-form-input"
+          class="new-todo"
+          type="text"
+          placeholder="What need to be done?"
+          autocomplete="off"
+        />
+      </form>
+      <div id="js-todo-list" class="todo-list"></div>
+      <footer class="footer">
+        <span id="js-todo-count">Todo アイテム数: 0</span>
+      </footer>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
